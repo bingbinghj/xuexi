@@ -1,5 +1,5 @@
 n="sillyGirl"
-s="/etc/"
+s="/etc"
 a=arm64
 if [[ $(uname -a | grep "x86_64") != "" ]]; then 
     a=amd64
